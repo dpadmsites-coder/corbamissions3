@@ -14,7 +14,7 @@ export default function PodcastPage() {
             <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-zinc-950">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/hero-missions.jpg"
+                        src="/podcast-microphone.png"
                         alt="Corbã Cast Background"
                         fill
                         className="object-cover"
