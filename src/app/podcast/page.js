@@ -68,13 +68,23 @@ export default function PodcastPage() {
                                     <div className="absolute inset-0 bg-zinc-800 flex items-center justify-center">
                                         <Radio className="w-24 h-24 text-zinc-600" />
                                     </div>
-                                    {/* Placeholder image usage */}
                                     <Image
-                                        src="/about-team.jpg"
+                                        src="/woman-listening.png"
                                         alt="Sobre o Podcast"
                                         fill
-                                        className="object-cover opacity-80"
+                                        className="object-cover"
                                     />
+                                </div>
+
+                                {/* Floating Platform Logos */}
+                                <div className="absolute -top-4 -right-4 w-12 h-12 md:-top-8 md:-right-8 md:w-20 md:h-20 z-20 animate-float shadow-2xl rounded-2xl overflow-hidden border-2 md:border-4 border-white dark:border-zinc-900 ring-1 ring-black/5">
+                                    <Image src="/spotify.png" alt="Spotify" fill className="object-cover" />
+                                </div>
+                                <div className="absolute -bottom-6 -left-4 w-10 h-10 md:-bottom-10 md:-left-6 md:w-18 md:h-18 z-20 animate-float [animation-delay:1.5s] shadow-2xl rounded-2xl overflow-hidden border-2 md:border-4 border-white dark:border-zinc-900 ring-1 ring-black/5">
+                                    <Image src="/youtube.png" alt="YouTube" fill className="object-cover" />
+                                </div>
+                                <div className="absolute top-1/2 -right-6 w-10 h-10 md:-right-10 md:w-16 md:h-16 z-20 animate-float [animation-delay:3s] shadow-2xl rounded-2xl overflow-hidden border-2 md:border-4 border-white dark:border-zinc-900 ring-1 ring-black/5">
+                                    <Image src="/meet.png" alt="Google Meet" fill className="object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -96,16 +106,7 @@ export default function PodcastPage() {
                                 </p>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-6 pt-4">
-                                <div className="space-y-2">
-                                    <h4 className="text-3xl font-bold text-foreground">50+</h4>
-                                    <p className="text-sm text-muted-foreground">Episódios Gravados</p>
-                                </div>
-                                <div className="space-y-2">
-                                    <h4 className="text-3xl font-bold text-foreground">10k+</h4>
-                                    <p className="text-sm text-muted-foreground">Ouvintes Mensais</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
